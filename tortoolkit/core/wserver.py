@@ -721,7 +721,7 @@ async def set_priority(request):
 @routes.get("/")
 async def homepage(request):
     return web.Response(
-        text='<h1>🤗TorToolkitX webserver is Up and Running successfully🟢</h1>\n<h2>⚡See TorToolkitX on <a href="https://github.com/KangersHub/TorToolkitX">@GitHub</a></h2>\n<h2>🥲Join KangersHub <a href="https://t.me/KangersHub">TG channel</a></h2>',
+        text='<h1>🤗LeechX webserver is Up and Running successfully🟢</h1>\n<h2>⚡See on <a href="https://t.me/rex_bots_support">@TeamRex</a></h2>\n<h2>🥲Join Rex_Botz <a href="https://t.me/rex_botz">TG channel</a></h2>',
         content_type="text/html",
     )
 
