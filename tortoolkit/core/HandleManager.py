@@ -644,7 +644,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkitX running on heroku an instance of <a href='https://github.com/KangersHub/TorToolkitX'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is LeechX running on heroku an instance of <a href='https://t.me/rex_botz'>This Channel</a>. Join Channel @Rex_Botz"
     await event.reply(msg, parse_mode="html")
 
 
@@ -812,7 +812,7 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkitX-Heroku</code>\n"
+        "<b>Name</b>: <code>LeechX-Heroku</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
